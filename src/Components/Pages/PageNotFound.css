@@ -1,0 +1,139 @@
+
+.not-found-page {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.not-found-card {
+  width: 100%;
+  max-width: 650px;
+  padding: 50px 35px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.not-found-icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff5d6;
+  border-radius: 50%;
+  font-size: 36px;
+}
+
+.not-found-label {
+  color: #a67c00;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+.not-found-code {
+  margin: 0;
+  color: #d4a017;
+  font-size: clamp(90px, 18vw, 150px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 5px;
+  text-shadow: 4px 5px 0 #f8edcc;
+}
+
+.not-found-card h2 {
+  margin: 15px 0 12px;
+  color: #171717;
+  font-size: clamp(23px, 4vw, 32px);
+}
+
+.not-found-message {
+  max-width: 440px;
+  margin: 0 auto;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.not-found-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.not-found-home,
+.not-found-back {
+  min-width: 145px;
+  padding: 13px 22px;
+  border: 2px solid #d4a017;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.not-found-home {
+  color: #111111;
+  background: #d4a017;
+}
+
+.not-found-home:hover {
+  background: #b88900;
+  border-color: #b88900;
+  transform: translateY(-2px);
+}
+
+.not-found-back {
+  color: #222222;
+  background: #ffffff;
+}
+
+.not-found-back:hover {
+  color: #111111;
+  background: #fff5d6;
+  transform: translateY(-2px);
+}
+
+.not-found-footer {
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: 1px solid #eeeeee;
+  color: #777777;
+  font-size: 13px;
+}
+
+.not-found-footer span {
+  margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+  .not-found-card {
+    padding: 35px 20px;
+  }
+
+  .not-found-actions {
+    flex-direction: column;
+  }
+
+  .not-found-home,
+  .not-found-back {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
